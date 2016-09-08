@@ -1,0 +1,100 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	//background-image: url(../img/hero-bg.jpg);
+	//background-size: cover;
+/*
+	&:before {
+		content: "";
+		position: absolute;
+		width: 200px;
+		height: 300px;
+		display: block;
+		top: 50%;
+		left: 0%;
+		margin-top: -150px; 
+		background-image:url(../img/ornament.svg);
+		opacity: .1;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+	*/
+}
+
+main {
+	position: relative;
+	z-index: 10;
+}
+
+h1 {
+	width:180px;
+	height:60px;
+	display:block;
+	margin-left: 10px;
+	text-indent:-9999px;
+	background-image:url(../img/frctal-logo.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+h2 {
+	color: #fff;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 60px;
+	border-bottom: #fff solid 6px;
+}
+
+
+a {
+	color: #fff;
+}
+
+.bg {
+	position: absolute;
+	min-height: 100% !important;
+	width: 100%;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+}
+
+.ibg-bg {
+	position: absolute;
+}
+
+.social-networks {
+	list-style: none;
+	margin: 20px 0 0;
+
+	li {
+		display: inline-block;
+	}
+}
+
+.align-middle {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-size: 50% 50%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.facebook-icon {
+	background-image:url(../img/facebook-logo.svg);
+}
+.twitter-icon {
+	background-image:url(../img/twitter-logo.svg);
+}
+.instagram-icon {
+	background-image:url(../img/instagram-logo.svg);
+}
